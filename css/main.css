@@ -1,0 +1,65 @@
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li{
+    width:100%;
+    text-align:center;
+    line-height: 10vh;
+    transition: color 0.3s;
+}
+
+.header nav ul li:hover{
+    background-color: white;
+    transition: 0.3s;
+
+}
+
+.nav-text{
+    color: white;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; /* Agregar una transición suave para el cambio de color */
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.header nav {
+    position: fixed; /* Fija la barra de navegación en la parte superior de la página */
+    top: 0; /* Lo coloca en la parte superior de la pantalla */
+    left: 0; /* Lo coloca en la parte izquierda de la pantalla */
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    background-color: #333; /* Color de fondo de la barra de navegación */
+
+}
+
+.header nav ul li a {
+    text-decoration: none;
+}
+
+/////
+
+.header nav ul li a {
+    text-decoration: none;
+    transition: color 0.3s; /* Agregar una transición suave para el cambio de color */
+}
+
+/* Cambiar el color del texto de los elementos <li> al pasar el puntero por encima de la barra de navegación */
+.header nav:hover ul li a {
+    color: red; /* Color de texto al pasar el puntero por encima de la barra de navegación */
+}
+
+
+
+
