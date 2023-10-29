@@ -86,13 +86,13 @@ body{
 
  .direc-img {
    display: grid;
-   grid-template-columns: repeat(2, 1fr); /* Crea 2 columnas */
+   grid-template-columns: repeat(2, 1fr); 
     /* Espacio entre las imágenes */
  }
 
  @media screen and (max-width: 768px) {
   .direc-img {
-    grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas pequeñas */
+    grid-template-columns: 1fr;
   }
 }
 
