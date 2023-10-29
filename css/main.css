@@ -114,17 +114,18 @@ body{
      grid-template-columns: 1fr;
    }
  }
- .directory{ grid-area: directory;
-    border: solid black 4px;
-    background-color: lightgreen;
-    text-align:center;
-
- }
  
  .footer{ grid-area: footer;
-    border: solid black 4px;
-    background-color: lightgreen;
-    text-align:center;
+  display: grid;
+    /* border: solid black 4px; */
+    background-color: rgb(214, 214, 214);
+    align-items: center;
+    justify-content: center;
+ }
+
+ .ftr{
+  color: black;
+  text-decoration: none;
  }
 
 
