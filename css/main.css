@@ -122,19 +122,38 @@ body{
   font-size: 2rem;
   font-family:'Poltawski Nowy', serif;;
  }
- 
- .footer{ grid-area: footer;
-  display: grid;
-    /* border: solid black 4px; */
-    background-color: rgb(214, 214, 214);
-    align-items: center;
-    justify-content: center;
- }
 
- .ftr{
+
+ .footer {grid-area: footer;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.ftr {
   color: black;
   text-decoration: none;
- }
+}
 
+
+.redes-sociales {
+  display: grid; 
+  gap: 10px; 
+  padding: 40px; 
+  align-items: center;
+  text-align: center;
+}
+
+.redes-sociales a {
+  color: black;
+  text-decoration: none;
+}
 
 
