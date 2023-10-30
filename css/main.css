@@ -71,8 +71,8 @@ body{
 }
 
 .enlacemenu:hover {
-   color: rgb(225, 225, 225); /* Cambia el color del texto a rojo al pasar el puntero */
-   background-color: red; /* Cambia el color de fondo a rojo al pasar el puntero */
+   color: rgb(225, 225, 225);
+   background-color: red;
  }
 
 
